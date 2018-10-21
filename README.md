@@ -1,21 +1,29 @@
-# FikraCamps Test 
-
-
-# Question 4
-
-**Working Example App: [Example App - Question 4]**(https://github.com/QusaySaad/FikraCampsTest-Q4)
-
-Program that combines two lists by alternatingly taking elements, e.g.  
-  
--   [a,b,c], [1,2,3] → [a,1,b,2,c,3].
-  
--   [1,2,5,8,0], [9,4,8,7,6] → [1, 9, 2, 4, 5, 8, 8, 7, 0, 6].
-
+# FikraCamps Test - Question 2
 
 This application developed using Angular6 , Typescript, Javascript & css.
 
-**App Screen Shoot:**
-(https://picasaweb.google.com/109034889718681232328/6614513297071479585#6614513303255635778 "Question 4")
+## Working Example App Q2: → (https://angularbot-de5ed.firebaseapp.com/)
+
+<br><br>
+
+
+## Screenshot:
+
+![Alt text](https://github.com/QusaySaad/FikraCampsTest-Q2/blob/master/Q2_Screenshoot.png)
+
+<br><br>
+<hr>
+
+### Write a program that accepts an array of numbers and returns an array of numbers in written form e.g.
+
+
+[1,4,6] → [“one”, “four”, “six”]
+
+[0,0,6,2,7] → [“zero”, “zero”, “six”,"two","seven"]
+
+[5,4,3,2,1,5,8] → ["five", "four", "three", "two", "one", "five","eight"]
+
+
 
 
 
