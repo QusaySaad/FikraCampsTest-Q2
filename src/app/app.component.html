@@ -1,0 +1,141 @@
+<div class="page-wrapper">
+
+
+  <!-- Fikraspace Logo -->
+  <img src="https://scontent.fbgw3-1.fna.fbcdn.net/v/t1.0-9/41725366_2118027078230943_7168995347027460096_o.jpg?_nc_cat=111&_nc_ht=scontent.fbgw3-1.fna&oh=0389516a98a65f7d3c625b0926a9f49b&oe=5C492D36"  class="img-logo fikraspace-logo">
+  <!-- /Fikraspace Logo -->
+  
+  
+  
+  <!-- Qustion Card -->
+  <div class="qustion-card">
+  <div dir="auto" class="tag-card">Q2</div>
+  
+  <br>
+  
+  
+  <span class="qustion first-letter" dir="auto">
+  Write a program that accepts an array of numbers and returns an array of numbers in written form e.g.
+  </span>
+  
+  
+  <br><br>
+  
+  <li>[1,4,6] → [“one”, “four”, “six”]</li>
+  <br>
+  <li>[0,0,6,2,7] → [“zero”, “zero”, “six”,"two","seven"]</li>
+  <br>
+  <li>[5,4,3,2,1,5,8] → ["five", "four", "three", "two", "one", "five","eight"]</li>
+  
+  </div>
+  <!-- /Qustion Card -->
+  
+  
+  
+  
+  
+  
+  <!-- Answer Card answer-card -->
+  <div class="qustion-card">
+  <div dir="auto" class="tag-card">A</div>
+  
+  <br>
+  
+  <p class="paragraph">
+      Please, Enter numbers it will automatically converted to words
+    </p>
+  
+  <div>
+      <input type="text" [ngModel]="numbers" placeholder="Enter Numbers" (ngModelChange)="calculeNumber($event)"/>
+      
+  </div>
+  
+  <div class="result-text">
+    {{result}}
+  </div>
+  
+  <br>
+  
+  <div class="result-json">
+    {{result | json}}
+  </div>
+  
+  
+  
+  
+    <!-- Clear button -->
+    <button
+    (click)="numbers=''">
+      Clear
+    </button>
+  
+  
+    
+  
+  
+  </div>
+  <!-- /Answer Card -->
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Example - Numbers to Words Converter -->
+  <div class="qustion-card">
+  <div dir="auto" class="tag-card">A</div>
+  
+  <br>
+  
+  <div class="paragraph">
+    <div class="app-title">Number to words (number spelling) Converter</div>
+    Convert a number to a US English word representation.
+    <br><br>
+    This converter will convert numbers to words and figures to words. 
+    For example, "one thousand four hundred three" is the written form of 1403.
+  
+    <br><br>
+  
+    This app Built using pipe and PipeTransform
+  </div>
+  
+  
+  
+  
+  <input type="number" [(ngModel)]="pipeNumber" placeholder="Input Numbers"/>
+  
+   
+  
+  
+  
+  <div class="result-text">
+    {{ pipeNumber | numberToWords }}
+  </div>
+  
+  
+  
+  <p class="paragraph" *ngIf="!pipeNumber">
+      Please, Enter numbers it will automatically converted to words
+    </p>
+  
+  
+  <!-- Clear button -->
+  <button (click)="pipeNumber = ''">
+    Clear
+  </button>
+   
+  
+  
+  
+  </div>
+  <!-- /Example - Numbers to Words Converter -->
+  
+  
+  
+  
+  
+  
+  
+  </div>
