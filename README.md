@@ -9,7 +9,7 @@ This application developed using Angular6 , Typescript, Javascript & css.
 
 ## Screenshot:
 
-![Alt text](https://github.com/QusaySaad/FikraCampsTest-Q4/blob/master/Q4_Screenshoot.png)
+![Alt text](https://github.com/QusaySaad/FikraCampsTest-Q2/blob/master/Q2.png)
 
 <br><br>
 <hr>
