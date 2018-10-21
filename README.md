@@ -14,12 +14,14 @@ This application developed using Angular6 , Typescript, Javascript & css.
 <br><br>
 <hr>
 
-### Q4 -Program that combines two lists by alternatingly taking elements, e.g.  
-  
--   [a,b,c], [1,2,3] → [a,1,b,2,c,3].
-  
--   [1,2,5,8,0], [9,4,8,7,6] → [1, 9, 2, 4, 5, 8, 8, 7, 0, 6].
+### program that accepts an array of numbers and returns an array of numbers in written form e.g.
 
+
+[1,4,6] → [“one”, “four”, “six”]
+
+[0,0,6,2,7] → [“zero”, “zero”, “six”,"two","seven"]
+
+[5,4,3,2,1,5,8] → ["five", "four", "three", "two", "one", "five","eight"]
 
 
 
